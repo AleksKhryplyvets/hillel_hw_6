@@ -36,9 +36,9 @@
       function charIndexOf(str, symbol, toStart) {
         for (let i = toStart; i < str.length; i++) {
           if (str[i] !== symbol) {
-            return "-1";
+            return -1;
           } else {
-            return true;
+            return i;
           }
         }
       }
